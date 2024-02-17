@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        body {
+            margin:0px;
+            padding:0;
+            display:flex;
+            flex-wrap:wrap;
+          .martel-sans-extralight {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal; }
+  background-color:rgba(8 8 8 0.89);
+
+}
+           
+        
+     .main {  
+     background-image:url(file:///storage/emulated/0/Netflix/bg.jpg);
+     width:100%;
+     height:100vh;
+ 
+     
+    position: relative; 
+   <!--   display:flex;
+     justify-content:center;
+     align-items:center;
+ -->     }
+       .box{
+         background-color:black;
+          height:100vh;
+         width:100%;
+          position: absolute;
+         top:0; 
+         
+         
+         opacity:0.44;
+     }
+     nav{
+     
+         position: relative;
+         max-width:320px;
+         display:flex;
+        margin:auto;
+         align-items:centre;
+         justify-content:space-between;
+     }
+     nav img{
+         z-index:10;
+        
+     }
+     .let{ height:60px;
+     position:relative;
+         color:white;
+         display:flex;
+         align-items:flex-start;
+         justify-content:flex-start;
+         flex-direction: column;
+         gap:26px;
+         margin:20px;
+     }
+    .line1{
+    position: relative;
+    bottom:12px;
+  text-align:center;
+    padding:12px; 
+        font-size:30px;
+        font-style:bold;
+        font-weight: 700;
+        
+      
+    }
+   
+      .butt{
+      
+     
+          background-color:red;
+        margin:5px;
+   
+          border-radius:4px;
+          width:70px;
+          height:38px;
+          color:white;
+         
+      }
+      .on{
+               background-color: transparent;
+        margin:5px;
+   
+          border-radius:2px;
+          width:70px;
+          height:38px;
+          color: white;
+      }
+      
+         .line2{
+           font-size:20px;
+          text-align:center;
+           position:relative;
+           
+           bottom:18px;
+             
+             
+         }
+         .line3{
+                  font-size:20px;
+         position:relative;
+           padding:18px; 
+         
+           text-align:center;
+         }
+         
+         
+         .bp{
+             display:flex;
+            justify-items:center;
+            align-items:center;
+           position: relative; 
+            left:40px;
+            flex-direction: column;
+             
+         }
+         .user{
+             background-color: transparent;
+          width:250px;
+         height:44px;
+       font-size:20px;
+       background-color:rgba(23 23 23  0.5);
+       
+        border-radius:5px;
+       border:2px solid rgba(23 23 23  0.5);
+       font-weight:400;
+       font-family:"poppins" ,sans-serif;
+     
+    
+        color: white
+        
+         }
+         .button{
+             
+             
+          background-color:red;
+        margin:22px;
+   
+          border-radius:4px;
+          width:150px;
+          height:45px;
+          color:white;
+          font-size:20px;
+          font-weight:500;
+         word-spacing:2px;
+         font-family:arial;
+
+             
+         }
+         .first{
+             color:white;
+             position: relative;
+       background-color:black;
+       
+          width:100%;
+     height:100vh;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+         }
+          .content{
+              text-align:center;
+              font-size:20px;
+              word-spacing:1px;
+              padding:5px;
+        
+          }
+           .head
+           {font-size:35px;
+              font-weight:bold;
+              position: absolute;
+              top:0;
+              left:50px;
+             
+          }
+          .neck{
+          
+           position: relative ; 
+              z-index:10;
+          }
+          .face{
+              
+              position: absolute;
+              top:230px;
+              right:50px;
+              Z-index:9;
+          }
+              .second {
+             color:white;
+             position: relative;
+       background-color:black;
+       
+          width:100%;
+     height:100vh;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+         }
+          .page{
+              
+          font-size:35px;
+          text-align: center;
+              font-weight:bold;
+            position: relative;
+            bottom:40px;
+            padding:9px;
+                
+
+
+        }
+          .pin{
+              
+                    text-align:center;
+              font-size:20px;
+       position: relative;
+      bottom:30px;   
+              
+          }
+          .phone{
+                 
+           position: relative ; 
+           bottom:15px;
+              z-index:10;
+          }
+          .her{
+                
+           position: relative ; 
+              z-index:10;
+              
+          }
+          .book{
+                  
+              position: relative;
+              bottom:230px;
+              left:60px;
+                 Z-index:9;
+          }
+          .ox{
+              
+              font-size:35px;
+              font-weight:bold;
+              position: absolute;
+              top:0;
+              left:10px;
+              text-align:center;          
+              
+          }
+          .faq:hover{
+              background-color:rgb(36 37 37);
+          }
+          .faq{
+          transition:all 1s ease out;
+              display:flex;
+         justify-content:space-between;
+             
+              background-color: #2d2d2d;
+              margin:9px auto;
+              width:90vw;
+              height:12vh;
+              
+              cursor: pointer;
+                 font-size:19px;
+          text-align: center;
+             
+            position: relative;
+            bottom:170px;
+            padding:3px;
+            
+              
+          }
+          .third {
+              background:black;
+              color:white;
+                 position: relative;
+       background-color:black;
+       
+          width:100%;
+     height:200vh;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     
+          }
+          .nurse{
+              margin:15px;
+          }
+          .plus{
+              margin:13px;
+            
+          }
+      
+             
+          
+    </style>
+</head>
+<body>
+    <section> <div class="main">
+              <div class="box"></div>
+             
+       <nav >
+             <span>
+           
+                 <img width="121"src="file:///storage/emulated/0/Netflix/IMG_20240211_202723.jpg" alt=""></span>
+             <div class="select">
+                 <select class="on" name="language">
+                     <option value="English">English</option>
+                     <option value="Hindi">Hindi</option>
+                 </select>
+                 <button class="butt">sign in</button>
+             </div>
+         </nav> 
+       <!-- <div class="box"></div>
+          -->
+        <div class="let">
+            <span class="line1">Unlimited movies, TV shows and more</span>
+            <span class="line2">Watch anywhere. Cancel anytime.</span>
+            <div class="line3">Ready to watch? Enter your email to create or restart your membership.
+        
+        
+    </div>
+       <div class="bp">
+    
+            <input     class="user" type="text-area" name="username"placeholder ="Email address "></input>
+             <button class="button">Get Started > </button>
+    
+          
+            
+        </div>
+     
+    </div>
+    <div class="separate">.</div></section>
+   
+       
+         <section class="first">
+                     <div ><h1 class="head">  Enjoy on your TV</h1>
+          <p class="content"
+          >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+
+
+</p></div>
+<div >
+    <img class="neck" src="content://com.android.providers.downloads.documents/document/1690" width="340vw"alt="">
+    <img class="face" src="content://com.android.providers.downloads.documents/document/1708" width="269vw"alt="">
+ 
+    
+    
+</div>
+
+         </section>
+   <section class="second">
+       <div>
+          <h1 class="page">Download your shows to watch offline</h1> 
+      <p class="pin">
+          Save your favourites easily and always have something to watch.
+      </p>
+           
+           
+           
+       </div>
+       <div>
+           <img class="phone"src="content://com.android.providers.downloads.documents/document/1691" width="300px"alt="">
+       </div>
+   </section>
+    <section class="second">
+       <div>
+          <h1 class="page">Watch everywhere </h1> 
+      <p class="pin">
+          Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+      </p>
+           
+           
+           
+       </div>
+       <div>
+           <img class="her"src=" content://com.android.providers.downloads.documents/document/1692" width="350px"alt="">
+               <img class="book"src="content://com.android.providers.downloads.documents/document/1715" width="220px"alt="">
+    
+    
+       </div>
+   </section>
+     <section class="second">
+       <div>
+          <h1 class="page">Create profiles for kids</h1> 
+      <p class="pin">
+        Send children on adventures with their favourite characters in a space made just for them—free with your membership.      </p>
+           
+           
+           
+       </div>
+       <div>
+           <img class="phone"src="content://com.android.providers.downloads.documents/document/1693" width="300px"alt="">
+       </div>
+   </section>
+   <section class="third">
+      <h2 class="ox">Frequently Asked Questions</h2>
+      <div class="faq">
+         <span class="nurse"> what is Netflix ?</span> <span class="plus">+</span></div>
+            <div class="faq">
+         <span   class="nurse" >How much does Netflix cost ?</span><span class="plus">+</span>
+         </div>
+            <div class="faq">
+         <span  class="nurse">Where can I watch ?</span><span class="plus">+</span>
+         </div>
+            <div class="faq">
+         <span  class="nurse"> How do I cancel ?</span><span class="plus">+</span>
+         </div>
+            <div class="faq">
+         <span class="nurse"> What can I watch on Netflix ?</span><span class="plus">+</span>
+         </div>
+            <div class="faq">
+         <span class="nurse"> Is Netflix good for kids ?</span><span class="plus">+</span>
+         </div>
+   </section>
+   <footer>
+       <div class="line3">Ready to watch? Enter your email to create or restart your membership.
+        
+        
+    </div>
+       <div class="bp">
+    
+            <input     class="user" type="text-area" name="username"placeholder ="Email address "></input>
+             <button class="button">Get Started > </button>
+    
+          
+            
+        </div>
+     
+     
+       <div class="fax"></div>
+   </footer>
+</body>
+</html>
